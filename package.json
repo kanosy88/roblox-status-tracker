@@ -4,6 +4,7 @@
   "module": "index.ts",
   "type": "module",
   "license": "MIT",
+  "main": "main.js",
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -12,7 +13,8 @@
   },
   "scripts": {
     "dev": "bun run index.ts",
-    "build": "bun build ./index.ts --compile --outfile=./build/RobloxStatusTracker"
+    "build": "bun build ./index.ts --compile --outfile=./build/RobloxStatusTracker",
+    "start": "electron ."
   },
   "dependencies": {
     "axios": "^1.7.2",
