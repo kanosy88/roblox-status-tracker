@@ -176,3 +176,5 @@ async function main() {
 }
 
 main();
+
+// TODO: Join the game of the friend user if the user clicks on the notification.
