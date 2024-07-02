@@ -1,7 +1,9 @@
 {
+  "author": "Kanosy",
   "name": "roblox-status-tracker",
   "module": "index.ts",
   "type": "module",
+  "license": "MIT",
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -13,6 +15,7 @@
     "build": "bun build ./index.ts --compile --outfile=./build/RobloxStatusTracker"
   },
   "dependencies": {
-    "axios": "^1.7.2"
+    "axios": "^1.7.2",
+    "electron": "^31.1.0"
   }
 }
